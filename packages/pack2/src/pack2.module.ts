@@ -7,7 +7,7 @@ import { Pack1Module, Pack1Service } from 'pack1';
 @NgModule({
     imports: [
         CommonModule,
-        Pack1Module, // .forRoot('From Pack 2'), // .forChild('from pack 2')
+        // Pack1Module, // .forRoot('From Pack 2'), // .forChild('from pack 2')
     ],
     declarations: [
         Pack2Component
@@ -16,6 +16,9 @@ import { Pack1Module, Pack1Service } from 'pack1';
         Pack2Component,
     ],
     providers: [
+    ],
+    entryComponents: [
+        Pack2Component
     ]
 })
 
