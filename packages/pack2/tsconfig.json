@@ -1,0 +1,29 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "dist",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "skipLibCheck": true,
+      "target": "es5",
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "lib": [
+        "es2016",
+        "dom"
+      ],
+      "paths": {
+        "@angular/*": ["../../node_modules/@angular/*"],
+        "@ngrx/*": ["../../node_modules/@ngrx/*"],
+        "rxjs/*": ["../../node_modules/rxjs/*"],
+        "zone.js/*": ["../../node_modules/zone.js/*"]
+      }
+    },
+    "exclude": [
+      "./node_modules"
+    ]
+  }
